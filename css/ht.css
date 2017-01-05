@@ -1,0 +1,70 @@
+/* CSS Document */
+body,div,table,p,ul,li,img
+{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+}
+body
+{
+	font-size:12px;
+	font-family:"宋体";
+}
+a:link,a:visited
+{
+	color:#000;
+	text-decoration:none;
+}
+a:hover
+{ 
+	text-decoration:underline;
+}
+#header
+{
+	width:100%;
+	height:70px;
+	background:url(../images/easy-ui/ht_HeaderBg.jpg) repeat-x;
+}
+#nav
+{
+	margin:0 auto;
+	width:100%;
+	height:29px;
+	background:url(../images/easy-ui/nav.jpg) repeat-x;
+	 line-height:29px; 
+	 overflow:hidden;
+}
+#nav img
+{
+	margin:auto 5px;
+}
+#nav .leftFloat
+{
+	float:left; ;
+	margin:0 10px;
+}
+#nav .rightFloat
+{
+	float:right;
+	 margin:0 10px;
+	 text-height:29px;
+	 font-weight:bold;
+}
+#manager_add input
+{
+	margin-bottom:10px;
+}
+#htFont
+{
+	margin:100px auto;
+	width:415px;
+	height:215px;
+}
+#foot
+{
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	font-weight:600;
+}

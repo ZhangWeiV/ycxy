@@ -1,0 +1,774 @@
+body, ul, li, p, img, h1, h2, h3, span, div 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+a:link, a:visited 
+{
+	color:#2665a4;
+	text-decoration: none;
+}
+a:hover 
+{
+	text-decoration:none;
+	color:#F00;
+	
+}
+body 
+{
+	font-family: "宋体";
+	font-size: 12px;
+}
+#Logo
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 127px;
+	background:url(../images/Logo.jpg) no-repeat;
+}
+#ConHeader 
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 370px;
+}
+#ConHeader a:link,#ConHeader a:visited 
+{
+	color:white;
+	text-decoration: none;
+}
+#ConHeader a:hover 
+{
+	display:block;
+	text-decoration: none;
+	background:url(../images/LiBgchange.jpg) no-repeat center center;
+}
+#nav 
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 70px;
+}
+.navLeft 
+{
+	display: block;
+	margin: 0 auto;
+	width: 16px;
+	height: 70px;
+	background: url(../images/navLeft.jpg) no-repeat;
+	float: left;
+}
+.navCenter 
+{
+	display: block;
+	margin: 0 auto;
+	width: 968px;
+	height: 70px;
+	background: url(../images/navCenter.jpg) repeat-x;
+	float: left;
+}
+.navCenter li 
+{
+	width: 88px;
+	height:35px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height:35px;
+	float: left;
+	position: relative;
+	
+}
+.navRight 
+{
+	display: block;
+	margin: 0 auto;
+	width: 16px;
+	height: 70px;
+	background: url(../images/navRight.jpg) no-repeat;
+	float: left;
+}
+#banner
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+}
+div.wrap 
+{
+	width : 988px;
+	margin : 0 auto;
+	text-align : left;
+	float: left;
+}
+div#banner div.wrap 
+{
+	height : 300px;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+div#banner div#slide-holder 
+{
+	z-index : 40;
+	width : 988px;
+	height : 300px;
+	position : absolute;
+}
+div#banner div#slide-holder div#slide-runner 
+{
+	top : 9px;
+	left : 9px;
+	width : 967px;
+	height : 278px;
+	overflow : hidden;
+	position : absolute;
+}
+div#banner div#slide-holder img 
+{
+	margin : 0;
+	display : none;
+	position : absolute;
+}
+div#banner div#slide-holder div#slide-controls 
+{
+	left : 0;
+	bottom : 0px;
+	width : 973px;
+	height : 46px;
+	display : none;
+	position : absolute;
+	background: url(../images/slide-bg.png) 0 0;
+}
+div#banner div#slide-holder div#slide-controls p.text 
+{
+	float : left;
+	color : #fff;
+	display : inline;
+	font-size : 10px;
+	line-height : 16px;
+	margin : 15px 0 0 20px;
+	text-transform : uppercase;
+}
+div#banner div#slide-holder div#slide-controls p#slide-nav
+{
+	float : right;
+	height : 24px;
+	display : inline;
+	margin : 11px 15px 0 0;
+}
+div#banner div#slide-holder div#slide-controls p#slide-nav a 
+{
+	float : left;
+	width : 24px;
+	height : 24px;
+	display : inline;
+	font-size : 12px;
+	margin : 0 5px 0 0;
+	line-height : 24px;
+	font-weight : bold;
+	text-align : center;
+	text-decoration : none;
+	background-position : 0 0;
+	background-repeat : no-repeat;
+}
+div#banner div#slide-holder div#slide-controls p#slide-nav a.on 
+{
+	background-position : 0 -24px;
+}
+div#banner div#slide-holder div#slide-controls p#slide-nav a
+{
+	background-image : url(../images/silde-nav.png);
+}
+#slide-controls 
+{
+	font-weight:600
+}
+.bannerLeft 
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 300px;
+	background: url(../images/shadowLeft.jpg) repeat-y;
+	float: left;
+}
+.bannerRight
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 300px;
+	background: url(../images/shadowRight.jpg) repeat-y;
+	float: left;
+}
+
+#ConMain_Top
+{
+	margin:0 auto;
+	width:1000px;
+	height:280px;
+	position:relative;
+}
+
+.ConMain_Top_Left 
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 280px;
+	background: url(../images/shadowLeft.jpg) repeat-y;
+	float: left;
+}
+.ConMain_Top_Right 
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 280px;
+	background: url(../images/shadowRight.jpg) repeat-y;
+	float: left;
+}
+#mailBox
+{
+	margin-left:8px;
+	width:235px;
+	height:180px;
+	float:left;
+	color:#2665a4;
+}
+#mailBox .mailBox_header
+{
+	width:235px;
+	height:47px;
+	background:url(../images/mailBox_top.jpg) no-repeat center top;
+}
+#mailBox .mailBox_Left
+{
+	margin-left:2px;
+	display:block;
+	width:1px;
+	height:132px;
+	background:url(../images/mailBoxLine.jpg) repeat-y;;float:left;
+}
+#mailBox .mailBox_body
+{
+	margin:0 auto;
+	width:231px;
+	height:132px;
+	background:url(../images/mailBoxLine.jpg) repeat-x bottom;
+	float:left;
+}
+#mailBox .mailBox_Right
+{
+	display:block;
+	width:1px;
+	height:132px;
+	background:url(../images/mailBoxLine.jpg) repeat-y;float:left;
+}
+#mailBox #tableFloat
+{
+	margin:0 auto;
+	width:230px;
+	height:130px;
+	float:left;
+}
+#mailFloat li
+{
+	margin-bottom:10px;
+}
+#mailFloat label
+{
+	width:50px;
+	float:left;
+	text-align:right;
+	margin-left:10px;
+}
+.mailbox_button
+{
+	margin-left:60px;
+}
+#ConMain_Top #zlbz
+{
+	margin-left:14px;
+	position:absolute;
+	top:193px;
+	left:3px;
+}
+#tooltip
+{
+	position:absolute;
+	border:1px solid #333;
+	background:#000;
+	padding:1px;
+	color:#fff;
+	opacity:0.8;
+	display:none;
+}
+#schoolNews
+{
+	margin:5px 6px 10px 5px;
+	width:530px;
+	height:260px;
+	float:left;
+	border:1px solid #ced9ef;
+}
+#schoolNews .schoolNews_header
+{
+	width:530px;
+	height:27px;
+	background:url(../images/schoolNews.jpg) no-repeat left top;
+	position:relative;
+}
+#schoolNews .more
+{
+	display:block;
+	position:absolute;
+	right:0px;
+}
+#schoolNews_roll
+{
+    float: left;
+    height: 223px;
+    margin:5px 2px 5px 5px;
+    overflow: hidden;
+    position: relative;
+    width: 333px;
+}
+#schoolNews_roll img 
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#schoolNews_roll div 
+{
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#schoolNews_roll_bottom a 
+{
+    background-color: #444444;
+    color:#fff;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    padding:10px 3px;
+    text-align: center;
+	margin-right:1px;
+    width: 60px;
+	font-size:12px;
+	
+}
+#schoolNews_roll div a:hover 
+{
+    text-decoration: none;
+	
+}
+#schoolNews_roll_bottom a span
+{
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    overflow: hidden;
+    width: 60px;
+}
+#schoolNews_roll_bottom .last 
+{
+    margin: 0;
+    width: 59px;
+}
+#schoolNews_roll_bottom a.chos 
+{
+    background: url(../images/adindex.gif) no-repeat center bottom #37A7D7;
+    color: #FFFFFF;
+}
+#schoolNews_text
+{
+	margin:0 auto;
+	width:190px;
+	float:left;
+	overflow: hidden;
+}
+#schoolNews_text li
+{
+	margin:5px 5px 4px 5px;
+	width:180px;
+	height:20px;
+	text-height:em; 
+	background:url(../images/fontLine.jpg) repeat-x bottom;
+	float:left;
+}
+#publicNotice
+{
+	margin:5px 10px 10px 0;
+	width:190px;
+	height:260px;
+	float:left;
+	border:1px solid #ced9ef;
+	overflow:hidden;
+}
+#publicNotice .publicNotice_header
+{
+	width:190px;height:27px;
+	background:url(../images/publicNotice.jpg) no-repeat left top;
+	position:relative
+}
+#publicNotice .more
+{
+	display:block;
+	position:absolute;
+	right:0px;
+}
+#publicNotice #publicNotice_content li
+{
+	margin:8px 10px 0 10px;
+	width:288px;
+	height:20px;
+	text-height:em;
+	 background:url(../images/fontLine.jpg) repeat-x bottom;
+}
+#ConMain_Center
+{
+	margin:0 auto;
+	width:1000px;
+	height:240px;
+}
+.ConMain_Center_Left
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 242px;
+	background: url(../images/shadowLeft.jpg) repeat-y;
+	float: left;
+}
+.ConMain_Center_Right
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 242px;
+	background: url(../images/shadowRight.jpg) repeat-y;
+	float: left;
+}
+#pT_aD_dN_Box
+{
+	margin:0 0 10px 10px;
+	width:477px;
+	height:230px;
+	border:1px solid #ced9ef;
+	float:left;
+}
+#pT_aD_dN_Box .pT_aD_dN_Header
+{
+	margin:0 auto;
+	width:477px;
+	height:27px;
+	font-size:16px;
+	color:#155298;
+	font-weight:bold;
+	cursor:pointer;
+}
+#pT_aD_dN_Box #pT
+{
+	margin:0 auto;
+	display:block;
+	width:157px;
+	height:27px;
+	float:left; 
+	text-indent:-999px;
+	border-left:1px solid #819bc6;
+	border-right: 1px solid #819bc6;
+	background:url(../images/practiceTeaching_1.jpg) no-repeat;
+}
+#pT_aD_dN_Box #aD
+{
+	margin:0 auto;
+	display:block;
+	width:157px;
+	height:27px;
+	float:left; 
+    text-indent:-999px;
+	border-left:1px solid #819bc6;
+	border-right: 1px solid #819bc6;
+	background:url(../images/academicDynamic_1.jpg) no-repeat;
+}
+#pT_aD_dN_Box #dN
+{
+	margin:0 auto;
+	display:block;
+	width:157px;
+	height:27px;
+	float:left; 
+    text-indent:-999px;
+	border-left:1px solid #819bc6;
+	border-right: 1px solid #819bc6;
+	background:url(../images/departmentNews_1.jpg) no-repeat;
+}
+#practiceTeaching
+{
+	margin:0 auto;
+	width:477px;
+	height:203px;
+	line-height:28px;
+	display:block;
+}
+#practiceTeaching .teachleft
+{
+	margin:10px 10px 3px;
+	width:143px;
+	height:190px;
+	display:block;
+	float:left;
+}
+#pT_aD_dN_Box ul
+{
+	margin:0 auto;
+	float:left;
+	width:305px;
+}
+#pT_aD_dN_Box li
+{
+	background:url(../images/fontLine.jpg) repeat-x bottom;
+}
+#academicDynamic
+{
+	margin:0 auto;
+	width:477px;
+	height:203px;
+	line-height:28px;display:none;
+}
+#academicDynamic .acadleft
+{
+	margin:10px 10px 3px;
+	width:143px;
+	height:190px;
+	display:block;
+	float:left;
+}
+#departmentNews
+{
+	margin:0 auto;
+	width:477px;
+	height:203px;
+	line-height:28px;
+	display:none;
+}
+#departmentNews .deptleft
+{
+	margin:10px 10px 3px;
+	width:143px;
+	height:190px;
+	display:block;
+	float:left;
+}
+#videoNews
+{
+	margin:0 10px 10px 10px;
+	width:477px;height:230px;
+	border:1px solid #ced9ef;
+	float:left;
+}
+#videoNews .vN_Header
+{
+	width:477px;
+	height:27px;
+    background:url(../images/vN_Header.jpg) no-repeat left;
+	position:relative;
+}
+#videoNews .videoleft
+{
+	margin:3px 10px 0px;
+	width:250px;
+	height:200px;
+	display:block;
+	float:left;
+}
+#videoNews ul
+{
+	margin:0 auto;
+	float:left;
+	width:197px;
+	line-height:28px;
+}
+#videoNews li
+{
+	background:url(../images/fontLine.jpg) repeat-x bottom;
+}
+#videoNews .more
+{
+	display:block;
+	position:absolute;
+	right:0px;
+}
+#ConMain_Bottom
+{
+	margin:0 auto;
+	width:1000px;
+	height:168px; 
+	overflow:hidden;
+}
+#ConMain_Bottom .ConMain_Bot_Left
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 168px;
+	background: url(../images/shadowLeft.jpg) repeat-y;
+	float: left;
+}
+#ConMain_Bottom #ConMain_Bot_Main
+{
+	margin:0 auto;
+	width:988px;
+	height:168px;
+	float:left;
+	position:relative;
+}
+#ConMain_Bot_Main .Fast_href_Left
+{
+	margin:0 0 10px 10px; 
+	display:block;
+	width:5px;
+	height:80px;
+	float:left;
+	 background:url(../images/Fast_href_Left.jpg) no-repeat;
+}
+#ConMain_Bot_Main .Fast_href_Center
+{
+	margin:0 auto;
+	display:block;
+	width:958px;
+	height:80px;
+	float:left;
+	background:url(../images/Fast_href_Center.jpg) repeat-x;
+}
+#ConMain_Bot_Main .FhC_ul01
+{
+	margin:15px 10px 0 10px;
+	width:938px;
+	height:30px;
+}
+#ConMain_Bot_Main .FhC_ul01 li
+{
+	margin-left:8px;
+	float:left;
+}
+.FhC_ul01 .blueTitle
+{
+	font-size:14px;
+	color:#0356ac;
+	font-weight:bold;
+}
+.Fast_href_Center .redFont a:link,.Fast_href_Center .redFont a:visited
+{
+	color:#F03;
+	text-decoration: none;
+	font-weight:bold;
+}
+.Fast_href_Center .redFont a:hover 
+{
+	text-decoration: none;
+	color:#2665a4;
+	
+}
+#ConMain_Bot_Main .FhC_ul02
+{
+	margin:0 10px 10px 83px;
+	width:865px;
+	height:20px;
+}
+#ConMain_Bot_Main .FhC_ul02 li
+{
+	margin-left:10px;
+	float:left;
+}
+
+#ConMain_Bot_Main .Fast_href_Right
+{
+	margin-right:10px;
+	display:block;
+	width:5px;
+	height:80px;
+	float:left;
+	background:url(../images/Fast_href_Right.jpg) no-repeat;
+}
+#ConMain_Bottom #friendLinks
+{
+	width:968px;
+	height:78px;
+	position:absolute;
+	top:90px;
+	left:10px;
+}
+#friendLinks .friendLinks_title
+{
+	margin:0 auto; 
+	width:968px;
+	height:21px;
+	text-indent:-999px;
+	background:url(../images/friendLinks_title.jpg) no-repeat;
+}
+#friendLinks .friendLinks_body
+{
+	margin-top:12px; 
+	width:968px;
+	height:31px;
+}
+#friendLinks .friendLinks_picture
+{
+	
+	margin:0 auto;
+	width:594px;
+	height:31px;
+	float:left;
+	position:relative;
+}
+.friendLinks_picture li
+{
+	width:88px;
+	height:31px;
+	margin-right:11px;
+	float:left;
+}
+#friendLinks .friendlink_edu
+{
+	position:absolute;
+	left:598px;
+	top:6px;
+}
+#friendLinks .brother_school
+{
+	position:absolute;
+	left:808px;
+	top:6px;
+}
+#ConMain_Bottom .ConMain_Bot_Right
+{
+	display: block;
+	margin: 0 auto;
+	width: 6px;
+	height: 168px;
+	background: url(../images/shadowRight.jpg) repeat-y;
+	float: left;
+}
+#foot
+{
+	margin:0 auto;
+	width:1000px;
+	height:73px;
+	background:url(../images/footLine.jpg) repeat-x;
+	text-align:center;
+	color:#FFF;
+	line-height:2em;
+}
+#foot a:link,#foot a:visited 
+{
+	color:white;
+	text-decoration: none;
+}
+#foot a:hover {	text-decoration: underline;}

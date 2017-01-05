@@ -1,0 +1,200 @@
+/* CSS Document */
+body,p,img,ul,li,h2, h3, span, div 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+body 
+{
+	font-family:"宋体";
+	font-size: 12px;
+}
+a:link,a:visited 
+{
+	color:#585858;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration:none;
+	color:#f00;
+	
+}
+#Logo
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 127px;
+	background:url(../images/email_Logo.jpg) no-repeat;
+}
+#nav a:link,#nav a:visited 
+{
+	color:white;
+	text-decoration: none;
+}
+#nav a:hover 
+{
+	display:block;
+	text-decoration:none;
+	background:url(../images/LiBgchange.jpg) no-repeat center center;
+}
+#nav
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 70px;
+}
+.navLeft 
+{
+	display: block;
+	margin: 0 auto;
+	width: 16px;
+	height: 70px;
+	background: url(../images/navLeft.jpg) no-repeat;
+	float: left;
+}
+.navCenter 
+{
+	display: block;
+	margin: 0 auto;
+	width: 968px;
+	height: 70px;
+	background: url(../images/navCenter.jpg) repeat-x;
+	float: left;
+}
+.navCenter li 
+{
+	width: 88px;
+	height:35px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height:35px;
+	float: left;
+	position: relative;
+	
+}
+.navRight 
+{
+	display: block;
+	margin: 0 auto;
+	width: 16px;
+	height: 70px;
+	background: url(../images/navRight.jpg) no-repeat;
+	float: left;
+}
+#content
+{
+	margin:0 auto;
+	width:1000px;
+}
+#content h1
+{
+	margin:10px auto;
+	width:225px;
+}
+#content #shadowLeft
+{
+	display:block;
+	margin:0 auto;
+	width:6px;
+	height:450px;
+	background:url(../images/shadowLeft.jpg) repeat-y;
+	float:left;
+}
+#content #conMain
+{
+	margin:0 auto;
+	width:988px;
+	height:450px;
+	float:left;
+}
+#myform
+{
+	width:800px;
+	margin:10px auto;
+}
+.bd,#passtext,#passtext2,#passnum,#passnum2
+{
+	margin:20px 200px 0;
+	height:20px;
+	line-height:20px;
+	width:600px;
+}
+.button
+{
+	margin:20px 300px;
+	height:20px;
+	line-height:20px;	
+}
+label
+{
+	width:100px;
+	float:left;
+	text-align:right;
+	
+}
+input{color:#999999;width:200px;}
+.button input{width:60px;}
+#passnum,#passnum2{display:none;}
+.focus
+{
+	border:1px solid #12c2fb;
+	background:#d2f1fb;
+}
+.error
+{
+	width:200px;
+	display:inline-block;
+	color:#F03;
+	height:20px;
+	line-height:20px;
+	padding-left:25px;
+	background:url(../images/error.gif) no-repeat;
+}
+.right
+{
+	display:inline-block;
+	color:#0C3;
+	height:20px;
+	line-height:20px;
+	padding-left:25px;
+	background:url(../images/right.gif) no-repeat;
+	
+}
+#message
+{
+	margin:0 auto;
+	width:988px;
+	text-align:center;
+	line-height:20px;
+	font-size:16px;
+	color:#12c2fb;
+}
+#content #shadowRight
+{
+	display:block;
+	margin:0 auto;
+	width:6px;
+	height:450px;
+	background:url(../images/shadowRight.jpg) repeat-y;
+	float:left;
+}
+#foot
+{
+	clear:both; 
+	margin:0 auto;
+	width:1000px;
+	height:73px;
+	background:url(../images/footLine.jpg) repeat-x;
+	text-align:center;
+	color:#FFF;
+	line-height:2em;
+}
+#foot a:link,#foot a:visited 
+{
+	color:white;
+	text-decoration:underline;
+}

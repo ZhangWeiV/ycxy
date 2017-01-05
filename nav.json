@@ -1,0 +1,22 @@
+[{    
+    "id":1,    
+    "text":"系统模块",    
+    "iconCls":"icon-system",
+	"state":"closed",
+    "children":[{    
+        "text":"管理员管理", 
+		"iconCls":"icon-manager"
+    }]    
+},
+{    
+	"id":2,
+    "text":"会员模块",
+	"iconCls":"icon-user",	
+	"state":"closed",
+    "children":[{    
+        "text":"会员管理",
+		"iconCls":"icon-group",
+		"checked":true
+    }]    
+}]  
+

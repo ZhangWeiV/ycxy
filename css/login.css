@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	 background:url(../images/easy-ui/loginBg.jpg);
+	 font-size:20px;
+	 font-family:"宋体";
+	 padding:100px;
+}
+#login
+{
+	margin:0 auto;
+	width:312px;
+	height:165px;
+	background:url(../images/easy-ui/LOGIN.png) no-repeat;
+	padding:100px 50px;
+}
+#managerName
+{
+	width:280px;
+	height:30px;
+	margin:30px auto;
+}
+#managerPassword
+{
+	width:280px;
+	height:30px;
+	margin:0px auto 20px;	
+}
+#login input{
+	width:150px;
+	height:22px;
+
+}
+label
+{
+	float:left;
+	text-align:right;
+	line-height:22px;
+}
+#register
+{
+	text-align:center;
+	
+}
+#manager_add input
+{
+	margin-bottom:10px;
+}
